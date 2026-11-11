@@ -66,8 +66,6 @@ ENV NODE_OPTIONS=--no-webstorage
 
 USER node
 
-VOLUME ["/app/data/storage"]
-
 EXPOSE 3000
 
 CMD ["node", "dist/main"]
